@@ -67,7 +67,7 @@ class RunnerTest(unittest.TestCase):
         self.assertEqual(self.runner2.walk(90), 20)
 
 class TournamentTest(unittest.TestCase):
-    is_frozen = True  # Установлено в True для пропуска тестов
+    is_frozen = True 
 
     @classmethod
     def setUpClass(cls):
